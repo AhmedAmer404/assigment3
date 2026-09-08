@@ -98,6 +98,20 @@ namespace assignment3
 
             #endregion
 
+            #region Question 8
+
+            foreach (string book in books)
+            {
+                if (book == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+
+                Console.WriteLine(book);
+            }
+
+            #endregion
+
         }
     }
 }
