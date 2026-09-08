@@ -137,6 +137,12 @@ namespace assignment3
             Console.WriteLine(bookList.ToString());
             #endregion
 
+            #region Question 12
+            bookList.Replace("Book List", "Library");
+
+            Console.WriteLine(bookList.ToString());
+            #endregion
+
         }
     }
 }
