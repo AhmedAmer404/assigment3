@@ -120,6 +120,13 @@ namespace assignment3
             Console.WriteLine(upperTitle);
             #endregion
 
+            #region Question 10
+            string str1 = "Clean Code";
+            string str2 = "Clean Code";
+
+            Console.WriteLine(ReferenceEquals(str1, str2));
+            #endregion
+
 
         }
     }
