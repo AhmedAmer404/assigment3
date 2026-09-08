@@ -152,6 +152,12 @@ namespace assignment3
             Console.WriteLine(sentence1);
             #endregion
 
+            #region Question 14
+            string sentence2 = $"Book: {title2}, Pages: {pages}";
+
+            Console.WriteLine(sentence2);
+            #endregion
+
         }
     }
 }
