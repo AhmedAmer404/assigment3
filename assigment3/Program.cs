@@ -75,6 +75,15 @@ namespace assignment3
 
             #endregion
 
+            #region Question 6
+
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
+
+            #endregion
+
         }
     }
 }
