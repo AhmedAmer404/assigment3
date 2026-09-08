@@ -84,6 +84,20 @@ namespace assignment3
 
             #endregion
 
+            #region Question 7
+
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+
+                if (book == "Refactoring")
+                {
+                    break;
+                }
+            }
+
+            #endregion
+
         }
     }
 }
