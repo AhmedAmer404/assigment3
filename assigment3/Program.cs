@@ -112,6 +112,15 @@ namespace assignment3
 
             #endregion
 
+            #region Question 9
+            string title2 = "clean code";
+            string upperTitle = title2.ToUpper();
+
+            Console.WriteLine(title2);
+            Console.WriteLine(upperTitle);
+            #endregion
+
+
         }
     }
 }
