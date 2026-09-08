@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 namespace assignment3
 {
     class Program
@@ -127,6 +128,14 @@ namespace assignment3
             Console.WriteLine(ReferenceEquals(str1, str2));
             #endregion
 
+            #region Question 11
+            StringBuilder bookList = new StringBuilder();
+
+            bookList.Append("Book List");
+            bookList.Append(" - Updated");
+
+            Console.WriteLine(bookList.ToString());
+            #endregion
 
         }
     }
