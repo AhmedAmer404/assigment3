@@ -143,6 +143,15 @@ namespace assignment3
             Console.WriteLine(bookList.ToString());
             #endregion
 
+            #region Question 13
+            string title3 = "Clean Code";
+            int pages2 = 464;
+
+            string sentence1 = "Book: " + title3 + ", Pages: " + pages2;
+
+            Console.WriteLine(sentence1);
+            #endregion
+
         }
     }
 }
