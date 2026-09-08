@@ -49,6 +49,19 @@ namespace assignment3
             }
 
             #endregion
+
+            #region Question 4
+
+            int i = 0;
+
+            while (i < books.Length)
+            {
+                Console.WriteLine(books[i]);
+                i++;
+            }
+
+            #endregion
+
         }
     }
 }
